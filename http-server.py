@@ -3,6 +3,7 @@ import subprocess
 import threading
 import http.server, ssl
 
+'''
 def domake():
     # build directory
     #os.chdir("./../")
@@ -20,7 +21,7 @@ def domake():
 # 利用執行緒執行 https 伺服器
 make = threading.Thread(target=domake)
 make.start()
-
+'''
 
 from http.server import HTTPServer, SimpleHTTPRequestHandler, test
 import sys
