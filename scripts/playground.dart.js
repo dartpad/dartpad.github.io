@@ -10819,13 +10819,38 @@ W.ad(u.a,u.b,H.h(new A.np(t),{func:1,ret:-1,args:[q]}),!1,q)
 s=J.aB(s.querySelector("#keyboard-button"))
 q=H.c(s,0)
 W.ad(s.a,s.b,H.h(new A.nq(t),{func:1,ret:-1,args:[q]}),!1,q)},
-kp:function(){var u,t,s,r,q,p="Sunflower",o=document,n=o.querySelector("#samples-menu"),m=H.j([new A.aS("215ba63265350c02dfbd586dfd30b8c3","Hello World",C.k),new A.aS("e93b969fed77325db0b848a85f1cf78e","Int to Double",C.k),new A.aS("b60dc2fc7ea49acecb1fd2b57bf9be57","Mixins",C.k),new A.aS("7d78af42d7b0aedfd92f00899f93561b","Fibonacci",C.k),new A.aS("a559420eed617dab7a196b5ea0b64fba",p,C.p),new A.aS("cb9b199b1085873de191e32a1dd5ca4f","WebSockets",C.p),new A.aS("b6409e10de32b280b8938aa75364fa7b","Counter",C.l),new A.aS("b3ccb26497ac84895540185935ed5825",p,C.l),new A.aS("ecb28c29c646b7f38139b1e7f44129b7","Draggables & physics",C.l),new A.aS("40308e0a5f47acba46ba62f4d8be2bf4","Implicit animations",C.l)],[A.aS]),l=o.createElement("ul")
+kp:function(){var u,t,s,r,q,p="Sunflower",o=document,n=o.querySelector("#samples-menu"),m=H.j([
+    //pure dart - 7
+    new A.aS("215ba63265350c02dfbd586dfd30b8c3","Hello World",C.k),
+    new A.aS("e93b969fed77325db0b848a85f1cf78e","Int to Double",C.k),
+    new A.aS("b60dc2fc7ea49acecb1fd2b57bf9be57","Mixins",C.k),
+    new A.aS("7d78af42d7b0aedfd92f00899f93561b","Fibonacci",C.k),
+    new A.aS("9f69e77cb456b97cccc8eb5a9dbd991c","亂數分組",C.k),
+    new A.aS("c129d7cb1b1cf5e2d714d0d6d5427b31","Sorting String as Integer", C.k),
+    new A.aS("c16278af1d23579b5f5d5dca5b7e090e","Linear Algebra Example", C.k),
+    //dart with html - 9
+    new A.aS("b51f4d2a76e394421057a70e7d281b66","ROC Flag", C.p),
+    new A.aS("fc5ad3a8136c27de79f5a33e33d5c5f6","Snake Game",C.p),
+    new A.aS("e9c5f81ea67eb3826f30fc5bb2e98cd1","Solar System", C.p),
+    new A.aS("9d7b66d3a0e6458618a7cd26e16265d8","Say Hello", C.p),
+    new A.aS("92c95776f09f38b2fe635cccec31e773","Rabbit Count", C.p),
+    new A.aS("0c7e4bbb880d11f0335d5b5da49e86db","Ping Pong Game", C.p),
+    new A.aS("189af1273a21bcc8c7ef76d81717de5a","Calculator", C.p),
+    new A.aS("a559420eed617dab7a196b5ea0b64fba",p,C.p),
+    new A.aS("cb9b199b1085873de191e32a1dd5ca4f","WebSockets",C.p),
+    // flutter - 4
+    new A.aS("b6409e10de32b280b8938aa75364fa7b","Counter",C.l),
+    new A.aS("b3ccb26497ac84895540185935ed5825",p,C.l),
+    new A.aS("ecb28c29c646b7f38139b1e7f44129b7","Draggables & physics",C.l),
+    new A.aS("40308e0a5f47acba46ba62f4d8be2bf4","Implicit animations",C.l)
+    ],[A.aS]),l=o.createElement("ul")
 l.classList.add("mdc-list")
 u=P.a
 new W.fd(l).C(0,P.c_(["aria-hidden","true","aria-orientation","vertical","tabindex","-1"],u,u))
 J.iB(n).j(0,l)
 t=new A.nL()
-for(s=0;s<10;++s)l.appendChild(H.b(t.$1(m[s]),"$iN"))
+// total number of examples is 20
+for(s=0;s<20;++s)l.appendChild(H.b(t.$1(m[s]),"$iN"))
 u=D.wy(n,null,null)
 r=new D.h5(u)
 q=J.K(u)
