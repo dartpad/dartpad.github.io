@@ -10825,10 +10825,11 @@ kp:function(){var u,t,s,r,q,p="Sunflower",o=document,n=o.querySelector("#samples
     new A.aS("e93b969fed77325db0b848a85f1cf78e","Int to Double",C.k),
     new A.aS("b60dc2fc7ea49acecb1fd2b57bf9be57","Mixins",C.k),
     new A.aS("7d78af42d7b0aedfd92f00899f93561b","Fibonacci",C.k),
-    new A.aS("9f69e77cb456b97cccc8eb5a9dbd991c","亂數分組",C.k),
+    new A.aS("9f69e77cb456b97cccc8eb5a9dbd991c","亂數分組1",C.k),
     new A.aS("c129d7cb1b1cf5e2d714d0d6d5427b31","Sorting String as Integer", C.k),
     new A.aS("c16278af1d23579b5f5d5dca5b7e090e","Linear Algebra Example", C.k),
-    //dart with html - 9
+    //dart with html - 10
+    new A.aS("d3cb64358254003bcd12dbe64ec9859b","亂數分組2",C.p),
     new A.aS("b51f4d2a76e394421057a70e7d281b66","ROC Flag", C.p),
     new A.aS("fc5ad3a8136c27de79f5a33e33d5c5f6","Snake Game",C.p),
     new A.aS("e9c5f81ea67eb3826f30fc5bb2e98cd1","Solar System", C.p),
@@ -10849,8 +10850,8 @@ u=P.a
 new W.fd(l).C(0,P.c_(["aria-hidden","true","aria-orientation","vertical","tabindex","-1"],u,u))
 J.iB(n).j(0,l)
 t=new A.nL()
-// total number of examples is 20
-for(s=0;s<20;++s)l.appendChild(H.b(t.$1(m[s]),"$iN"))
+// total number of examples is 21
+for(s=0;s<21;++s)l.appendChild(H.b(t.$1(m[s]),"$iN"))
 u=D.wy(n,null,null)
 r=new D.h5(u)
 q=J.K(u)
