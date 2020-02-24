@@ -1,5 +1,6 @@
 dart_pad:packages/dart_pad/
 _discoveryapis_commons:packages/_discoveryapis_commons/
+_fe_analyzer_shared:packages/_fe_analyzer_shared/
 analysis_server_lib:packages/analysis_server_lib/
 analyzer:packages/analyzer/
 archive:packages/archive/
@@ -31,7 +32,6 @@ crypto:packages/crypto/
 csslib:packages/csslib/
 dart_style:packages/dart_style/
 fixnum:packages/fixnum/
-front_end:packages/front_end/
 git:packages/git/
 glob:packages/glob/
 graphs:packages/graphs/
@@ -46,7 +46,6 @@ intl:packages/intl/
 io:packages/io/
 js:packages/js/
 json_annotation:packages/json_annotation/
-kernel:packages/kernel/
 logging:packages/logging/
 markdown:packages/markdown/
 matcher:packages/matcher/
